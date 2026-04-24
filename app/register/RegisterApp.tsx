@@ -312,6 +312,25 @@ export default function RegisterApp() {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <div style={{ textAlign:'center', padding:'20px 16px 32px' }}>
+        <p style={{ fontSize:12, color:G.muted, margin:'0 0 4px' }}>
+          Designed & Developed by{' '}
+          <strong style={{ color:G.green }}>PANSCKEV</strong>
+        </p>
+        <p style={{ fontSize:12, color:G.muted, margin:0 }}>
+          <a href="mailto:admin@pansckev.co.ke"
+            style={{ color:G.green, textDecoration:'none' }}>
+            admin@pansckev.co.ke
+          </a>
+          {' '}·{' '}
+          <a href="tel:+254716594117"
+            style={{ color:G.green, textDecoration:'none' }}>
+            +254 716 594 117
+          </a>
+        </p>
+      </div>
     </div>
   )
 }
